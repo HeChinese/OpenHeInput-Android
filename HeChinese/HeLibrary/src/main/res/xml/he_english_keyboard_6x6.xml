@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="17%p"
+    android:keyHeight="@dimen/key_6x7_height"
+    android:labelTextSize="@dimen/key_6x7_textSize"
+    android:horizontalGap="0dp"
+    android:verticalGap="0dp" >
+    
+    <!-- text sixe does not take effect, don't know why -->
+
+    <Row>
+        <Key android:codes="11" android:keyLabel="11 F" android:keyEdgeFlags="left" />
+        <Key android:codes="21" android:keyLabel="21 B"/>
+        <Key android:codes="31" android:keyLabel="31 L"/>
+        <Key android:codes="41" android:keyLabel="41 C"/>
+        <Key android:codes="51" android:keyLabel="51 V"/>
+        <Key android:codes="-5" android:keyIcon="@mipmap/sym_keyboard_delete" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="12" android:keyLabel="12 E" android:keyEdgeFlags="left" />
+        <Key android:codes="22" android:keyLabel="22 A"/>
+        <Key android:codes="32" android:keyLabel="32 I"/>
+        <Key android:codes="42" android:keyLabel="42 O"/>
+        <Key android:codes="52" android:keyLabel="52 U"/>
+        <Key android:codes="-64" android:keyLabel='←' android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="13" android:keyLabel="13 T" android:keyEdgeFlags="left" />
+        <Key android:codes="23" android:keyLabel="23 D"/>
+        <Key android:codes="33" android:keyLabel="33 N"/>
+        <Key android:codes="43" android:keyLabel="43 S"/>
+        <Key android:codes="53" android:keyLabel="53 W"/>
+        <Key android:codes="-65" android:keyLabel='→' android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="14" android:keyLabel="14 J" android:keyEdgeFlags="left" />
+        <Key android:codes="24" android:keyLabel="24 P"/>
+        <Key android:codes="34" android:keyLabel="34 H"/>
+        <Key android:codes="44" android:keyLabel="44 G"/>
+        <Key android:codes="54" android:keyLabel="54 Y"/>
+        <Key android:codes="-63" android:keyLabel="↓" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="15" android:keyLabel="15 Z" android:keyEdgeFlags="left" />
+        <Key android:codes="25" android:keyLabel="25 R"/>
+        <Key android:codes="35" android:keyLabel="35 K"/>
+        <Key android:codes="45" android:keyLabel="45 Q"/>
+        <Key android:codes="55" android:keyLabel="55 X"/>
+        <Key android:codes="-12" android:keyLabel="#123" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="-3" android:keyLabel="@string/label_cancel" android:keyEdgeFlags="left"/>
+		<Key android:codes="-11" android:keyLabel="@string/label_mode"/>
+		<Key android:codes="36" android:keyLabel="36 M"/>
+		<Key android:codes="62" android:keyIcon="@mipmap/sym_keyboard_space" android:keyWidth="29%p"
+                android:isRepeatable="true"/>
+		<Key android:codes="10" android:keyIcon="@mipmap/sym_keyboard_return" android:keyWidth="22%p" android:keyEdgeFlags="right" />
+    </Row>
+    
+</Keyboard>

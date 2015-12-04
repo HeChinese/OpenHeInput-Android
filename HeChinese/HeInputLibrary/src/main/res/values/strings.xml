@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HeInputLibrary</string>
+
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_zh_CN">Chinese Simplified(HeMa)%s</string>
+    <string name="label_subtype_zh_TW">Chinese Traditional(HeMa)%s</string>
+    <string name="label_subtype_hePinYin">PinYin(HeMa)</string>
+    <string name="label_subtype_heEnglish">English(HeMa)</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="language_selection_title">Chinese</string>
+    <string name="select_language">Chinese</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="heInput_setup">HeInput Setup</string>
+
+    <string name="heInput_activated">1. HeInput already activated!</string>
+    <string name="heInput_is_default">2. HeInput is system default keyboard!</string>
+
+    <string name="instruction_3_steps">Please follow the three steps below to complete HeInput settings:</string>
+    <string name="instruction_2_steps">Two step left to complete HeInput setting.</string>
+    <string name="instruction_1_step">One step left to complete HeInput setting.</string>
+    <string name="instruction_setting_done">HeInput setting is completed, enjoy typing!</string>
+
+    <string name="active_heinput_label">1. Enable HeInput keyboard on your device.</string>
+    <string name="select_default_label">2. Set HeInput keyboard as the default keyboard on your device</string>
+    <string name="select_chinese_dialect">3. Select Simplified or Traditional Chinese word collection. </string>
+    <string name="select_chinese_dialect_title">Select default Chinese word collection. </string>
+
+</resources>

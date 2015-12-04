@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.HeZi.Android.HeInputLibrary.HeInput_Activation_Fragment">
+
+    <TextView
+        android:id="@+id/setting_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction_3_steps"
+        android:layout_marginLeft ="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:layout_margin="@dimen/padding_verySmall"
+        android:textSize="@dimen/fontSize_normal"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/activeHeInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/padding_verySmall"
+        android:layout_marginTop="@dimen/padding_verySmall"
+        android:textSize="@dimen/fontSize_normal"
+        android:text="@string/active_heinput_label"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/selectDefaultInputMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding_verySmall"
+        android:layout_marginTop="@dimen/padding_verySmall"
+        android:textSize="@dimen/fontSize_normal"
+        android:text="@string/select_default_label"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/selectChineseDialect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding_verySmall"
+        android:layout_marginTop="@dimen/padding_verySmall"
+        android:textSize="@dimen/fontSize_normal"
+        android:text="@string/select_chinese_dialect"
+        android:textColor="#FF0000" />
+
+    <EditText
+        android:id="@+id/editText_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_page_editView_height"
+        android:layout_margin="@dimen/padding_medium"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="#0000FF"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="@dimen/padding_verySmall"
+        android:hint="@string/instruction_setting_done"
+        android:textSize="@dimen/fontSize_normal"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

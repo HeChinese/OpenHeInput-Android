@@ -1,0 +1,69 @@
+<resources>
+
+	<string name="settings_name">和码输入法设置</string>
+
+	<!-- Symbols that are commonly considered word separators in this language -->
+	<string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+	<string name="label_back_key">返回</string>
+	<string name="label_abc">ABC</string>
+	<string name="label_cancel">取消</string>
+	<string name="label_mode">模式</string>
+	<string name="label_pinYin">拼音查码</string>
+
+	<string name="label_go_key">完成</string>
+    <string name="label_next_key">下一步</string>
+    <string name="label_send_key">发送</string>
+
+	<string name="title_activity_search">搜索《和码中文》</string>
+
+	<string name="menu_repeat">重复</string>
+	<string name="menu_punctuation">标点符号</string>
+	<string name="menu_math_symbol">数学符号</string>
+	<string name="menu_number">数字</string>
+	<string name="menu_english_char">英文字母</string>
+
+	<string name="menu_he_chinese_input">和码中文</string>
+	<string name="menu_pinyin_input">拼音查码</string>
+	<string name="menu_symbol_input">符号</string>
+	<string name="menu_number_input">数字</string>
+	<string name="menu_he_english_input">和码英语输入</string>
+	<string name="menu_english_input">英语输入</string>
+
+	<string name="menu_use_simplified">设置为简体字词输入</string>
+	<string name="menu_use_traditional">设置为繁体字词输入</string>
+
+	<string name="menu_use_small_collection">设置采用小字库</string>
+	<string name="menu_use_big_collection">设置采用大字库</string>
+
+	<string name="menu_turn_on_pinyin_prompt">设置打开拼音提示</string>
+	<string name="menu_turn_off_pinyin_prompt">设置关掉拼音提示</string>
+
+	<string name="menu_save_setting">*保存当前设置至系统*</string>
+
+	<string name="menu_numpad">设置采用4x5数字小键盘</string>
+	<string name="menu_big_number_keyboard">设置采用6x6数字大键盘</string>
+	<string name="menu_big_char_keyboard">设置采用6x6字母大键盘</string>
+
+	<string name="NumPad_CharBoard">字母</string>
+	<string name="NumPad_Pause">暂停</string>
+	<string name="NumPad_Escape">返回</string>
+	<string name="NumPad_Delete">删除</string>
+	<string name="NumPad_Mode">模式</string>
+	<string name="NumPad_Char">字母</string>
+	<string name="NumPad_Num">数字</string>
+
+	<string name="NumPad_Space">空格</string>
+	<string name="NumPad_Return">回车</string>
+	<string name="NumPad_Backspace">后退</string>
+	<string name="NumPad_Reset">归零</string>
+	<string name="NumPad_Sound_Off">关声音</string>
+	<string name="NumPad_Sound_On">开声音</string>
+	<string name="NumPad_Sound_OffOn">声音 关/开</string>
+	<string name="NumPad_Easy">起步</string>
+	<string name="NumPad_Normal">提高</string>
+	<string name="NumPad_Hard">熟练</string>
+	<string name="NumPad_Help">？</string>
+
+	
+</resources>

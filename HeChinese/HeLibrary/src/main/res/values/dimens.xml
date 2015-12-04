@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Keyboard dimens -->
+    <dimen name="key_height">36dip</dimen>
+    <dimen name="key_6x7_height">40dip</dimen>
+    <dimen name="key_4x6_height">45dip</dimen>
+
+    <!-- does not take effect -->
+    <dimen name="key_6x7_textSize">32sp</dimen>
+    <dimen name="key_4x6_textSize">36.0sp</dimen>
+
+    <dimen name="margin_small">6dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">18dp</dimen>
+
+    <dimen name="fontSize_verySmall">8sp</dimen>
+    <dimen name="fontSize_small">14sp</dimen>
+    <dimen name="fontSize_normal">18sp</dimen>
+    <dimen name="fontSize_large">22sp</dimen>
+    <dimen name="fontSize_xlarge">26sp</dimen>
+    <dimen name="fontSize_xlarge2">40sp</dimen>
+    <dimen name="fontSize_xxlarge">100sp</dimen>
+
+    <dimen name="padding_large">18dp</dimen>
+    <dimen name="padding_medium">14dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_verySmall">3dp</dimen>
+
+</resources>

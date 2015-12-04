@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="candidate_fontSize">20sp</dimen>
+    <dimen name="candidate_fontSize_small">16sp</dimen>
+    <dimen name="candidate_vertical_padding">0sp</dimen>
+
+    <dimen name="listView_height">115dp</dimen>
+    <dimen name="header_height">32dp</dimen>
+    <dimen name="pinyin_prompt_right_margin">100dp</dimen>
+    <dimen name="setting_page_editView_height">200dp</dimen>
+</resources>

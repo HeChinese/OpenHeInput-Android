@@ -1,0 +1,33 @@
+<resources>
+    <dimen name="activity_horizontal_margin">30dp</dimen>
+    <dimen name="activity_vertical_margin">30dp</dimen>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="key_height">50dip</dimen>
+    <dimen name="key_6x7_height">44dip</dimen>
+    <dimen name="key_4x6_height">56dip</dimen>
+
+    <dimen name="key_6x7_textSize">30sp</dimen>
+    <dimen name="key_4x6_textSize">30.0sp</dimen>
+
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">30dp</dimen>
+
+    <dimen name="fontSize_verySmall">16sp</dimen>
+    <dimen name="fontSize_small">20sp</dimen>
+    <dimen name="fontSize_normal">24sp</dimen>
+    <dimen name="fontSize_large">28sp</dimen>
+    <dimen name="fontSize_xlarge">32sp</dimen>
+    <dimen name="fontSize_xlarge2">50sp</dimen>
+    <dimen name="fontSize_xxlarge">136sp</dimen>
+
+    <dimen name="padding_large">60dp</dimen>
+    <dimen name="padding_medium">40dp</dimen>
+    <dimen name="padding_small">20dp</dimen>
+    <dimen name="padding_verySmall">6dp</dimen>
+
+</resources>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">HeLibrary</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="settings_name">Settings</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <string name="label_back_key">Back</string>
+    <string name="label_abc">ABC</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_mode">Mode</string>
+    <string name="label_pinYin">PinYin</string>
+
+    <!-- Labels on soft keys -->
+
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+
+
+    <string name="menu_repeat">Repeat</string>
+    <string name="menu_punctuation">Punctuation</string>
+    <string name="menu_math_symbol">Math Symbol</string>
+    <string name="menu_number">Number</string>
+    <string name="menu_english_char">English Char</string>
+
+    <string name="menu_he_chinese_input">HeChinese</string>
+    <string name="menu_pinyin_input">PinYin</string>
+    <string name="menu_symbol_input">Symbol</string>
+    <string name="menu_number_input">Number</string>
+    <string name="menu_he_english_input">HeEnglish Input</string>
+
+    <string name="menu_english_input">English</string>
+
+    <string name="menu_use_simplified">Set to Simplified Chinese</string>
+    <string name="menu_use_traditional">Set to Traditional Chinese</string>
+
+    <string name="menu_use_small_collection">Set to Small Collection</string>
+    <string name="menu_use_big_collection">Set to Big Collection</string>
+
+    <string name="menu_turn_on_pinyin_prompt">Set PinYin Prompt On</string>
+    <string name="menu_turn_off_pinyin_prompt">Set PinYin Prompt Off</string>
+
+    <string name="menu_save_setting">*Save Settings to System*</string>
+
+    <string name="menu_numpad">Set to 4x5 numpad</string>
+    <string name="menu_big_number_keyboard">Set to 6x6 keyboard</string>
+    <string name="menu_big_char_keyboard">Set to 6x6 keyboard</string>
+
+    <string name="HeApp_Link">HeChinese Link</string>
+    <string name="HeApp_ViewTitle">HeChinese Apps</string>
+
+    <string name="HePage_OnlineCourse">HeChinese Online Courses</string>
+    <string name="HePage_OnlineCourse_Sub">Please Check Online Courses</string>
+    <string name="HePage_OnlineCourse_Link">http://www.HeZi.net/He/HeChinese/HTML/OnlineCourses.htm</string>
+
+    <string name="NumPad_CharBoard">Char</string>
+    <string name="NumPad_Pause">Pause</string>
+    <string name="NumPad_Escape">Esc</string>
+    <string name="NumPad_Delete">Del</string>
+    <string name="NumPad_Mode">Mode</string>
+    <string name="NumPad_Char">Char</string>
+    <string name="NumPad_Num">123</string>
+    <string name="NumPad_Space">Space</string>
+    <string name="NumPad_Return">Return</string>
+    <string name="NumPad_Backspace">Back</string>
+    <string name="NumPad_Reset">Reset</string>
+    <string name="NumPad_Easy">Easy</string>
+    <string name="NumPad_Normal">Normal</string>
+    <string name="NumPad_Hard">Hard</string>
+    <string name="NumPad_Sound_Off">OFF Sound</string>
+    <string name="NumPad_Sound_On">ON Sound</string>
+    <string name="NumPad_Sound_OffOn">Sound Off/On</string>
+    <string name="NumPad_Help">？</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

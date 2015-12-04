@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="17%p"
+    android:keyHeight="@dimen/key_6x7_height"
+    android:labelTextSize="@dimen/key_6x7_textSize"
+    android:horizontalGap="0dp"
+    android:verticalGap="0dp" >
+    
+    <!-- text six does not take effect, don't know why
+        1. 48...57 for: 0123..9
+        2. 97... 122 for: abc...xyz
+        3. All key code are from qwerty.xml and symbols.xml, symbols_shift.xml
+        Specially:
+        4. -2 for mode;
+        5. -12 from #123
+
+        11 F(102)   21 B(098)   31 L(108)   41 C(099)   51 V(118)
+        12 E(101)   22 A(097)   32 I(105)   42 O(111)   52 U(117)
+        13 T(116)   23 D(100)   33 N(110)   43 S(115)   53 W(119)
+        14 J(106)   24 P(112)   34 H(104)   44 G(103)   54 Y(121)
+        15 Z(122)   25 R(114)   35 K(107)   45 Q(113)   55 X(120)
+        36 M(109)
+
+        In Android's keyboard.java there are following definations:
+
+        public static final int EDGE_LEFT = 0x01;
+        public static final int EDGE_RIGHT = 0x02;
+        public static final int EDGE_TOP = 0x04;
+        public static final int EDGE_BOTTOM = 0x08;
+
+        public static final int KEYCODE_SHIFT = -1;
+        public static final int KEYCODE_MODE_CHANGE = -2;
+        public static final int KEYCODE_CANCEL = -3;
+        public static final int KEYCODE_DONE = -4;
+        public static final int KEYCODE_DELETE = -5;
+        public static final int KEYCODE_ALT = -6;
+
+        I added following to HeKeyboard.java
+
+        public static final int KEYCODE_ABC_N_BACK = -11;
+        public static final int KEYCODE_123_N_BACK = -12;
+    -->
+
+    <Row>
+        <Key android:codes="45,64" android:keyLabel="_  @" android:keyEdgeFlags="left" />
+        <Key android:codes="102" android:keyLabel="11 一"/>
+        <Key android:codes="98" android:keyLabel="21 丨"/>
+        <Key android:codes="108" android:keyLabel="31 十"/>
+        <Key android:codes="99" android:keyLabel="41 丿"/>
+        <Key android:codes="118" android:keyLabel="51 丶"/>
+        <Key android:codes="8" android:keyIcon="@mipmap/sym_keyboard_delete" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="58,39" android:keyLabel=":  \'" android:keyEdgeFlags="left" />
+        <Key android:codes="101" android:keyLabel="12 乛"/>
+        <Key android:codes="97" android:keyLabel="22 冂"/>
+        <Key android:codes="105" android:keyLabel="32 土"/>
+        <Key android:codes="111" android:keyLabel="42 亻"/>
+        <Key android:codes="117" android:keyLabel="52 冫"/>
+        <Key android:codes="37" android:keyLabel='←' android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="40,222" android:keyLabel="(  &quot;" android:keyEdgeFlags="left" />
+        <Key android:codes="116" android:keyLabel="13 彐"/>
+        <Key android:codes="100" android:keyLabel="23 口"/>
+        <Key android:codes="110" android:keyLabel="33 卄"/>
+        <Key android:codes="115" android:keyLabel="43 人"/>
+        <Key android:codes="119" android:keyLabel="53 氵"/>
+        <Key android:codes="39" android:keyLabel='→' android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="44,59" android:keyLabel=",  ;" android:keyEdgeFlags="left" />
+        <Key android:codes="106" android:keyLabel="14 又"/>
+        <Key android:codes="112" android:keyLabel="24 日"/>
+        <Key android:codes="104" android:keyLabel="34 木"/>
+        <Key android:codes="103" android:keyLabel="44 女"/>
+        <Key android:codes="121" android:keyLabel="54 火"/>
+        <Key android:codes="40" android:keyLabel="↓" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="46,63" android:keyLabel=".  \?" android:keyEdgeFlags="left" />
+        <Key android:codes="122" android:keyLabel="15 王"/>
+        <Key android:codes="114" android:keyLabel="25 月"/>
+        <Key android:codes="107" android:keyLabel="35 米"/>
+        <Key android:codes="113" android:keyLabel="45 犭"/>
+        <Key android:codes="120" android:keyLabel="55 心"/>
+        <Key android:codes="-12" android:keyLabel="#123" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="47,33" android:keyLabel="/  !" android:keyEdgeFlags="left" />
+        <Key android:codes="-3" android:keyLabel="@string/label_cancel"/>
+		<Key android:codes="-2" android:keyLabel="@string/label_mode"/>
+		<Key android:codes="48" android:keyLabel="0"/>
+		<Key android:codes="32" android:keyIcon="@mipmap/sym_keyboard_space" android:keyWidth="29%p"
+                android:isRepeatable="true"/>
+		<Key android:codes="10" android:keyIcon="@mipmap/sym_keyboard_return" android:keyWidth="22%p" android:keyEdgeFlags="right" />
+    </Row>
+    
+</Keyboard>

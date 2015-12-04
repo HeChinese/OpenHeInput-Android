@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HeChinese.iml" filepath="$PROJECT_DIR$/HeChinese.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeInputLibrary/HeInputLibrary.iml" filepath="$PROJECT_DIR$/HeInputLibrary/HeInputLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeLibrary/HeLibrary.iml" filepath="$PROJECT_DIR$/HeLibrary/HeLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenHeInput/OpenHeInput.iml" filepath="$PROJECT_DIR$/OpenHeInput/OpenHeInput.iml" />
+    </modules>
+  </component>
+</project>

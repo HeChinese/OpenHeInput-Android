@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for Latin keyboard  -->
+    <string name="app_name">HeInputLibrary</string>
+
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_zh_CN">和码中文(简体)%s</string>
+    <string name="label_subtype_zh_TW">和码中文(繁体)%s</string>
+    <string name="label_subtype_hePinYin">拼音(和码)</string>
+    <string name="label_subtype_heEnglish">英文(和码)</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="language_selection_title">输入语言</string>
+    <string name="select_language">选择输入语言</string>
+
+    <string name="heInput_setup">和码输入法设置</string>
+
+    <string name="heInput_activated">1、《和码输入法》已经激活了。</string>
+    <string name="heInput_is_default">2、《和码输入法》已经是系统输入法</string>
+
+    <string name="instruction_3_steps">请通过以下三个步骤完成《和码输入法》的设置。</string>
+    <string name="instruction_2_steps">还有两个步骤完成《和码输入法》设置。</string>
+    <string name="instruction_1_step">还有一个步骤完成《和码输入法》设置。</string>
+
+    <string name="instruction_setting_done">《和码输入法》设置好了，祝使用愉快！</string>
+
+    <string name="active_heinput_label">1、激活《和码输入法》</string>
+    <string name="select_default_label">2、设《和码输入法》为默认输入法</string>
+    <string name="select_chinese_dialect">3、选择简体或繁体输入</string>
+    <string name="select_chinese_dialect_title">选择简体或繁体为默认字符集</string>
+
+    <string name="link_to_apps_label">《和码汉字字形技术》系列软件</string>
+
+
+</resources>

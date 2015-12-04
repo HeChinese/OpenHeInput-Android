@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@layout/menu_item_background_selector"
+     >
+ 
+    <TextView
+        android:id="@+id/ziCiText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:textColor="@layout/menu_item_text_selector" 
+        android:textSize="@dimen/candidate_fontSize" />
+
+    <TextView
+        android:id="@+id/shuMaPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" 
+        android:layout_marginRight="@dimen/margin_medium"
+        android:textColor="@layout/menu_item_text_selector" 
+        android:textSize="@dimen/candidate_fontSize" />
+       
+</RelativeLayout>
+
+
+<!--
+
+android:textAppearance="?android:attr/textAppearanceMedium"
+
+LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_orange_light"
+    android:padding="6dip" >
+ 
+    <TextView
+        android:id="@+id/ziCiText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HanZi"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/shuMaPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+ 
+</LinearLayout-->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:keyWidth="16.67%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_4x6_height" >
+
+    <!--
+    //Not useful for change label size:
+        android:keyTextSize = "@dimen/key_4x5_text_size"
+        android:labelTextSize="@dimen/labelTextSize"
+    -->
+
+    <!--
+        1. 48...57 for: 0123..9
+        2. 97... 122 for: abc...xyz
+        3. All key code are from qwerty.xml and symbols.xml, symbols_shift.xml
+        Specially:
+        4. -2 for mode;
+        5. -12 from #123
+
+        In Android's keyboard.java there are following definations:
+
+        public static final int EDGE_LEFT = 0x01;
+        public static final int EDGE_RIGHT = 0x02;
+        public static final int EDGE_TOP = 0x04;
+        public static final int EDGE_BOTTOM = 0x08;
+
+        public static final int KEYCODE_SHIFT = -1;
+        public static final int KEYCODE_MODE_CHANGE = -2;
+        public static final int KEYCODE_CANCEL = -3;
+        public static final int KEYCODE_DONE = -4;
+        public static final int KEYCODE_DELETE = -5;
+        public static final int KEYCODE_ALT = -6;
+
+        I added following to HeKeyboard.java
+
+        public static final int KEYCODE_ABC_N_BACK = -11;
+        public static final int KEYCODE_123_N_BACK = -12;
+        public static final int KEYCODE_pinYin_N_BACK = -13;
+     -->
+
+    <Row>
+        <Key android:codes="-3" android:keyLabel="@string/label_cancel" android:keyEdgeFlags="left" />
+        <Key android:codes="55" android:keyLabel="7" android:keyTextColor = "#0000FF" />
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9"/>
+        <Key android:codes="34,41" android:keyLabel="&quot;  )"/>
+        <Key android:codes="-5" android:keyIcon="@mipmap/sym_keyboard_delete" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="-12" android:keyLabel="#123" android:keyEdgeFlags="left"/>
+        <Key android:codes="52" android:keyLabel="4"/>
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6"/>
+        <Key android:codes="44,59" android:keyLabel=",  ;"/>
+        <Key android:codes="37" android:keyLabel='←' android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="-13" android:keyLabel="@string/label_pinYin" android:keyEdgeFlags="left"/>
+        <Key android:codes="49" android:keyLabel="1"/>
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51" android:keyLabel="3"/>
+        <Key android:codes="46,63" android:keyLabel=".  \?"/>
+        <Key android:codes="39" android:keyLabel='→' android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="-11" android:keyLabel="@string/label_abc" android:keyEdgeFlags="left"/>
+        <Key android:codes="48" android:keyLabel="0"/>
+		<Key android:codes="32" android:keyIcon="@mipmap/sym_keyboard_space" android:keyWidth="33.3%p" android:isRepeatable="true" android:popupCharacters=""/>
+		<Key android:codes="10" android:keyIcon="@mipmap/sym_keyboard_return" />
+		<Key android:codes="-2" android:keyLabel="@string/label_mode" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
