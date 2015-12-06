@@ -2,10 +2,10 @@
 
 Open source HeInput Android project
 
-This application is based on Google SoftKeyboard sample:
+This application is based on Google SoftKeyboard sample:<br/>
 https://android.googlesource.com/platform/development/+/master/samples/SoftKeyboard/
 
-Android IME Frameword guide:
+Android IME Frameword guide:<br/>
 http://developer.android.com/intl/ja/guide/topics/text/creating-input-method.html
 
 Now it is full functional Chinese Input application, can be deployed to many Android devices.
