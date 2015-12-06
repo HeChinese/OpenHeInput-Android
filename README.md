@@ -10,7 +10,7 @@ http://developer.android.com/intl/ja/guide/topics/text/creating-input-method.htm
 
 Now it is full functional Chinese Input application, can be deployed to many Android devices.
 
-This application is also available in the Android Play Store:
+This application is also available in the Android Play Store:<br/>
 https://play.google.com/store/apps/details?id=net.HeZi.Android.HeInput
 
 Input features include:
