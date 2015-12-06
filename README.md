@@ -10,6 +10,9 @@ http://developer.android.com/intl/ja/guide/topics/text/creating-input-method.htm
 
 Now it is full functional Chinese Input application, can be deployed to Android devices.
 
+This application is also available in the Android Play Store:
+https://play.google.com/store/apps/details?id=net.HeZi.Android.HeInput
+
 Input features include:
 
 1. 21,000+ Chinese words;
