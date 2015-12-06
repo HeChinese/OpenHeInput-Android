@@ -4,6 +4,7 @@ Open source HeInput Android project
 
 This application is based on Google SoftKeyboard sample:
 https://android.googlesource.com/platform/development/+/master/samples/SoftKeyboard/
+
 Android IME Frameword guide:
 http://developer.android.com/intl/ja/guide/topics/text/creating-input-method.html
 
@@ -30,14 +31,14 @@ Project Name: HeChinese, include 3 modules:
 The main parts of code are:
 
 1. Hekeyboard which include CandidateListView;
-2. HeInput_DataServer which provide input data and functions to Android InputMethodService
-   HeInput_DataServer includes EngineCollection;
-      EngineCollection includes HeMaEngine, PinYinEngine, HeEnglishEngine, etc;
-        Each Engine access SQLite database;
+2. HeInput_DataServer which provide input data and functions for Android InputMethodService;
+   1. HeInput_DataServer includes EngineCollection;
+   2. EngineCollection includes HeMaEngine, PinYinEngine, HeEnglishEngine, etc;
+   3. Each Engine access SQLite database;
 
 # Database Structure
 
-Include a SQLite database: hema_db.sqlite, main tables:
+Include a SQLite database: hema_db.sqlite, it includes tables:
 
 create table HanZi
 (
