@@ -8,7 +8,7 @@ https://android.googlesource.com/platform/development/+/master/samples/SoftKeybo
 Android IME Frameword guide:
 http://developer.android.com/intl/ja/guide/topics/text/creating-input-method.html
 
-Now it is full functional Chinese Input application, can be deployed to Android devices.
+Now it is full functional Chinese Input application, can be deployed to many Android devices.
 
 This application is also available in the Android Play Store:
 https://play.google.com/store/apps/details?id=net.HeZi.Android.HeInput
