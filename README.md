@@ -1,6 +1,10 @@
 # OpenHeInput-Android
 
-Open source HeInput Android project
+'He' is Chinese word 和's PinYin(Sound), it means 'and' or 'with'.
+
+'HeInput'('和码' in Chinese) is a name of famous Chinese input mathod. 
+
+OpenHeInput-Android is open source HeInput Android project.
 
 This application is based on Google SoftKeyboard sample:<br/>
 https://android.googlesource.com/platform/development/+/master/samples/SoftKeyboard/
